@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+section {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    width: 280px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.storiyan {
+    height: 90px;
+    width: 100%;
+    background: red;
+    padding: 4px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding-block: 15px;
+}
+
+.storiyan::-webkit-scrollbar {
+    display: none;
+}
+
+.story {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: green;
+    display: inline-block;
+    margin-right: 3px;
+    overflow: hidden;
+    border: 2px solid blue;
+}
+
+.story img {
+    width: 100%;
+    height: 100%;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 15px;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
